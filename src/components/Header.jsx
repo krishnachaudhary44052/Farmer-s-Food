@@ -58,9 +58,9 @@ const Header = () => {
                                 </div>
                             )}
                         </div>
-                        <Link to="/location" className="text-black text-decoration-none">Location</Link>
+                        {/* <Link to="/location" className="text-black text-decoration-none"></Link> */}
                         <Link to="/getfridge" className="text-black text-decoration-none">Get Location</Link>
-                        <Link to="/DietPage" className="text-black text-decoration-none">DietIn</Link>
+                        <Link to="/DietPage" className="text-black text-decoration-none">Daily DietIn</Link>
                     </nav>
 
                     {/* Mobile Menu Button */}
