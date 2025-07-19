@@ -59,15 +59,15 @@ const Header = () => {
                             )}
                         </div>
                         {/* <Link to="/location" className="text-black text-decoration-none"></Link> */}
-                        <Link to="/getfridge" className="text-black text-decoration-none">Get Location</Link>
+                        {/* <Link to="/getfridge" className="text-black text-decoration-none">Get Location</Link> */}
                         <Link to="/DietPage" className="text-black text-decoration-none">Daily DietIn</Link>
                     </nav>
 
                     {/* Mobile Menu Button */}
                     <div className="d-flex d-md-none align-items-center gap-3">
-                        <button className="btn p-0" onClick={() => setShowSearch(true)}>
+                        {/* <button className="btn p-0" onClick={() => setShowSearch(true)}>
                             <Search className="text-secondary" />
-                        </button>
+                        </button> */}
                         <button className="btn p-0" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
                             {mobileMenuOpen ? <X className="text-dark" /> : <Menu className="text-dark" />}
                         </button>
@@ -75,13 +75,13 @@ const Header = () => {
 
                     {/* Desktop Icons */}
                     <div className="d-none d-md-flex align-items-center gap-3">
-                        <button className="btn p-0" onClick={() => setShowSearch(true)}>
+                        {/* <button className="btn p-0" onClick={() => setShowSearch(true)}>
                             <Search className="text-secondary" />
-                        </button>
-                        <MapPin className="text-secondary" />
-                        <div className="d-flex text-black align-items-center gap-2">
+                        </button> */}
+                        {/* <MapPin className="text-secondary" /> */}
+                        {/* <div className="d-flex text-black align-items-center gap-2">
                            <h6>Find a Fridge</h6>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
 
@@ -106,8 +106,8 @@ const Header = () => {
 
                             </div>
                         )}
-                        <Link to="/location" className="d-block mt-2 text-decoration-none">Location</Link>
-                        <Link to="/getfridge" className="d-block text-decoration-none">Get Fridge</Link>
+                        {/* <Link to="/location" className="d-block mt-2 text-decoration-none">Location</Link> */}
+                        {/* <Link to="/getfridge" className="d-block text-decoration-none">Get Fridge</Link> */}
                     </div>
                 )}
             </header>
